@@ -1,0 +1,21 @@
+{
+  "name": "section-6-stuff",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "start:prod": "set NODE_ENV=production& nodemon server.js",
+    "debug": "ndb server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "mongoose": "^6.4.1",
+    "morgan": "^1.10.0",
+    "slugify": "^1.6.5"
+  }
+}
